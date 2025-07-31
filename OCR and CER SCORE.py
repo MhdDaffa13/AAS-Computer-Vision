@@ -13,7 +13,7 @@ GROUND_TRUTH_CSV = os.path.join(BASE_DIR, "ground_truth.csv")
 OUTPUT_CSV = "ocr_result.csv"
 
 SERVER_URL = "http://localhost:1234/v1/chat/completions"
-VLM_MODEL_NAME = "llava-llama-3-8b-v1_1"  # <- diubah dari qwen2-vl
+VLM_MODEL_NAME = "llava-llama-3-8b-v1_1"  
 
 # === Fungsi Hitung CER ===
 def calculate_cer(ground_truth, prediction):
