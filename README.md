@@ -87,18 +87,14 @@ Keterangan:
 
 2. **Generate Ground Truth**
    ```bash
-   py generate_ground_truth.py
+   py generate_GT.py
    ```
 
-3. **Lakukan OCR**
+3. **Lakukan OCR DAN EVALUASI CER**
    ```bash
-   py predict_ocr.py
+   py OCR_and_CER_SCORE.py
    ```
 
-4. **Evaluasi CER**
-   ```bash
-   py evaluate_cer.py
-   ```
 
 ---
 
